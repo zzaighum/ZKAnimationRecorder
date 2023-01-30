@@ -14,6 +14,12 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		61164619298807D0009BBE3E /* ZKAnimationRecorder.docc in Sources */ = {isa = PBXBuildFile; fileRef = 61164618298807D0009BBE3E /* ZKAnimationRecorder.docc */; };
+		6116461F298807D0009BBE3E /* ZKAnimationRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61164615298807D0009BBE3E /* ZKAnimationRecorder.framework */; };
+		61164626298807D0009BBE3E /* ZKAnimationRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61164625298807D0009BBE3E /* ZKAnimationRecorderTests.swift */; };
+		61164627298807D1009BBE3E /* ZKAnimationRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 61164617298807D0009BBE3E /* ZKAnimationRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6116462A298807D1009BBE3E /* ZKAnimationRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61164615298807D0009BBE3E /* ZKAnimationRecorder.framework */; };
+		6116462B298807D1009BBE3E /* ZKAnimationRecorder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61164615298807D0009BBE3E /* ZKAnimationRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A2B335CDC54E56557668FBE6 /* Pods_ZKAnimationRecorder_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28490B6D57362327B3C931FF /* Pods_ZKAnimationRecorder_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +31,47 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = ZKAnimationRecorder;
 		};
+		61164620298807D0009BBE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61164614298807D0009BBE3E;
+			remoteInfo = ZKAnimationRecorder;
+		};
+		61164622298807D0009BBE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = ZKAnimationRecorder_Example;
+		};
+		61164628298807D1009BBE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61164614298807D0009BBE3E;
+			remoteInfo = ZKAnimationRecorder;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6116462C298807D1009BBE3E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6116462B298807D1009BBE3E /* ZKAnimationRecorder.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		18F802ACCC1AE03329D51946 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		18F802ACCC1AE03329D51946 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		28490B6D57362327B3C931FF /* Pods_ZKAnimationRecorder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKAnimationRecorder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D914B0D551BA18DF1C82D94 /* ZKAnimationRecorder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZKAnimationRecorder.podspec; path = ../ZKAnimationRecorder.podspec; sourceTree = "<group>"; };
+		2D914B0D551BA18DF1C82D94 /* ZKAnimationRecorder.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZKAnimationRecorder.podspec; path = ../ZKAnimationRecorder.podspec; sourceTree = "<group>"; };
 		4419F21EEE54A2611326D1E6 /* Pods-ZKAnimationRecorder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKAnimationRecorder_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZKAnimationRecorder_Example/Pods-ZKAnimationRecorder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		50F538A2BB5E40B7EFCCB22F /* Pods-ZKAnimationRecorder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKAnimationRecorder_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZKAnimationRecorder_Tests/Pods-ZKAnimationRecorder_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZKAnimationRecorder_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKAnimationRecorder_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +84,12 @@
 		607FACE51AFB9204008FA782 /* ZKAnimationRecorder_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKAnimationRecorder_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9ACB3D4FE0D446C269356478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		61164615298807D0009BBE3E /* ZKAnimationRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZKAnimationRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61164617298807D0009BBE3E /* ZKAnimationRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKAnimationRecorder.h; sourceTree = "<group>"; };
+		61164618298807D0009BBE3E /* ZKAnimationRecorder.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZKAnimationRecorder.docc; sourceTree = "<group>"; };
+		6116461E298807D0009BBE3E /* ZKAnimationRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKAnimationRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61164625298807D0009BBE3E /* ZKAnimationRecorderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZKAnimationRecorderTests.swift; sourceTree = "<group>"; };
+		9ACB3D4FE0D446C269356478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CCB2D1096405D0A5558736CD /* Pods-ZKAnimationRecorder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKAnimationRecorder_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZKAnimationRecorder_Tests/Pods-ZKAnimationRecorder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCE8A331F4E1398BEC8B30D8 /* Pods-ZKAnimationRecorder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKAnimationRecorder_Example.release.xcconfig"; path = "Target Support Files/Pods-ZKAnimationRecorder_Example/Pods-ZKAnimationRecorder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D7918C953ABA360A7E3C2048 /* Pods_ZKAnimationRecorder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZKAnimationRecorder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6116462A298807D1009BBE3E /* ZKAnimationRecorder.framework in Frameworks */,
 				A2B335CDC54E56557668FBE6 /* Pods_ZKAnimationRecorder_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +110,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				10C5544412B8A155C30C4DF9 /* Pods_ZKAnimationRecorder_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61164612298807D0009BBE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6116461B298807D0009BBE3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6116461F298807D0009BBE3E /* ZKAnimationRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +139,6 @@
 				CCB2D1096405D0A5558736CD /* Pods-ZKAnimationRecorder_Tests.debug.xcconfig */,
 				50F538A2BB5E40B7EFCCB22F /* Pods-ZKAnimationRecorder_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -96,6 +157,8 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for ZKAnimationRecorder */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				61164616298807D0009BBE3E /* ZKAnimationRecorder */,
+				61164624298807D0009BBE3E /* ZKAnimationRecorderTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				057A91D215C64A14463952CB /* Pods */,
 				38BB972A479CB7FF50B7C9DB /* Frameworks */,
@@ -107,6 +170,8 @@
 			children = (
 				607FACD01AFB9204008FA782 /* ZKAnimationRecorder_Example.app */,
 				607FACE51AFB9204008FA782 /* ZKAnimationRecorder_Tests.xctest */,
+				61164615298807D0009BBE3E /* ZKAnimationRecorder.framework */,
+				6116461E298807D0009BBE3E /* ZKAnimationRecorderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,7 +225,35 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		61164616298807D0009BBE3E /* ZKAnimationRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				61164617298807D0009BBE3E /* ZKAnimationRecorder.h */,
+				61164618298807D0009BBE3E /* ZKAnimationRecorder.docc */,
+			);
+			path = ZKAnimationRecorder;
+			sourceTree = "<group>";
+		};
+		61164624298807D0009BBE3E /* ZKAnimationRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				61164625298807D0009BBE3E /* ZKAnimationRecorderTests.swift */,
+			);
+			path = ZKAnimationRecorderTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61164610298807D0009BBE3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61164627298807D1009BBE3E /* ZKAnimationRecorder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* ZKAnimationRecorder_Example */ = {
@@ -172,10 +265,12 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				8A46D833812C7A3890703E4E /* [CP] Embed Pods Frameworks */,
+				6116462C298807D1009BBE3E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				61164629298807D1009BBE3E /* PBXTargetDependency */,
 			);
 			name = ZKAnimationRecorder_Example;
 			productName = ZKAnimationRecorder;
@@ -202,13 +297,50 @@
 			productReference = 607FACE51AFB9204008FA782 /* ZKAnimationRecorder_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		61164614298807D0009BBE3E /* ZKAnimationRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61164631298807D1009BBE3E /* Build configuration list for PBXNativeTarget "ZKAnimationRecorder" */;
+			buildPhases = (
+				61164610298807D0009BBE3E /* Headers */,
+				61164611298807D0009BBE3E /* Sources */,
+				61164612298807D0009BBE3E /* Frameworks */,
+				61164613298807D0009BBE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKAnimationRecorder;
+			productName = ZKAnimationRecorder;
+			productReference = 61164615298807D0009BBE3E /* ZKAnimationRecorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6116461D298807D0009BBE3E /* ZKAnimationRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61164632298807D1009BBE3E /* Build configuration list for PBXNativeTarget "ZKAnimationRecorderTests" */;
+			buildPhases = (
+				6116461A298807D0009BBE3E /* Sources */,
+				6116461B298807D0009BBE3E /* Frameworks */,
+				6116461C298807D0009BBE3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61164621298807D0009BBE3E /* PBXTargetDependency */,
+				61164623298807D0009BBE3E /* PBXTargetDependency */,
+			);
+			name = ZKAnimationRecorderTests;
+			productName = ZKAnimationRecorderTests;
+			productReference = 6116461E298807D0009BBE3E /* ZKAnimationRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -221,6 +353,15 @@
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
+					61164614298807D0009BBE3E = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					6116461D298807D0009BBE3E = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "ZKAnimationRecorder" */;
@@ -228,6 +369,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -238,6 +380,8 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* ZKAnimationRecorder_Example */,
 				607FACE41AFB9204008FA782 /* ZKAnimationRecorder_Tests */,
+				61164614298807D0009BBE3E /* ZKAnimationRecorder */,
+				6116461D298807D0009BBE3E /* ZKAnimationRecorderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +398,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61164613298807D0009BBE3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6116461C298807D0009BBE3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,6 +523,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		61164611298807D0009BBE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61164619298807D0009BBE3E /* ZKAnimationRecorder.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6116461A298807D0009BBE3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61164626298807D0009BBE3E /* ZKAnimationRecorderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -372,6 +546,21 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* ZKAnimationRecorder_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		61164621298807D0009BBE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61164614298807D0009BBE3E /* ZKAnimationRecorder */;
+			targetProxy = 61164620298807D0009BBE3E /* PBXContainerItemProxy */;
+		};
+		61164623298807D0009BBE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* ZKAnimationRecorder_Example */;
+			targetProxy = 61164622298807D0009BBE3E /* PBXContainerItemProxy */;
+		};
+		61164629298807D1009BBE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61164614298807D0009BBE3E /* ZKAnimationRecorder */;
+			targetProxy = 61164628298807D1009BBE3E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -564,6 +753,144 @@
 			};
 			name = Release;
 		};
+		6116462D298807D1009BBE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 CocoaPods. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKAnimationRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6116462E298807D1009BBE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 CocoaPods. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKAnimationRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6116462F298807D1009BBE3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKAnimationRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKAnimationRecorder_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZKAnimationRecorder_Example";
+			};
+			name = Debug;
+		};
+		61164630298807D1009BBE3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arbisoft.tipcalculator.ZKAnimationRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKAnimationRecorder_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZKAnimationRecorder_Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -590,6 +917,24 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61164631298807D1009BBE3E /* Build configuration list for PBXNativeTarget "ZKAnimationRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6116462D298807D1009BBE3E /* Debug */,
+				6116462E298807D1009BBE3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61164632298807D1009BBE3E /* Build configuration list for PBXNativeTarget "ZKAnimationRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6116462F298807D1009BBE3E /* Debug */,
+				61164630298807D1009BBE3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

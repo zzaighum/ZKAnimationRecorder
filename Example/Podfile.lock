@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (10.0.0)
+  - Quick (2.2.1)
+  - ZKAnimationRecorder (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 10.0.0)
+  - Quick (~> 2.2.0)
+  - ZKAnimationRecorder (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  ZKAnimationRecorder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  ZKAnimationRecorder: 277b20e97de7a568623cc3188f790023b0bae8f9
+
+PODFILE CHECKSUM: 2cc6ae305b8a9168cd3803804f96a322480f49a8
+
+COCOAPODS: 1.11.3
